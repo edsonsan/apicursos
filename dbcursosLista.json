@@ -1,0 +1,115 @@
+{  "1":  {
+        "id": 1,
+        "titulo":"Programação para leigos",
+        "aulas": 112,
+        "horas":58
+    },
+   "2": {
+        "id": 2,
+        "titulo":"Algoritimo e Lógica",
+        "aulas": 87,
+        "horas": 67
+    },
+    "3":{
+        "id": 3,
+        "titulo":"Programação em Assembler x86 & x64",
+        "aulas": 112,
+        "horas":58
+    },
+    "4":{
+        "id": 4,
+        "titulo":"Excel para Leigos",
+        "aulas": 87,
+        "horas": 67
+    },
+    "5":{
+        "id": 5,
+        "titulo":"Windows 7",
+        "aulas": 112,
+        "horas":58
+    },
+    "6":{
+        "id": 6,
+        "titulo":"Windows 8.1",
+        "aulas": 87,
+        "horas": 67
+    },
+    "7":{
+        "id": 7,
+        "titulo":"Windows 10",
+        "aulas": 112,
+        "horas":58
+    },
+    "8":{
+        "id": 8,
+        "titulo":"Windows 11",
+        "aulas": 87,
+        "horas": 67
+    },
+    "9":{
+        "id": 9,
+        "titulo":"Programação Python para Leigos",
+        "aulas": 112,
+        "horas":58
+    },
+    "10":{
+        "id": 10,
+        "titulo":"Algoritimo para IA",
+        "aulas": 87,
+        "horas": 67
+    },
+    "11":{
+        "id": 11,
+        "titulo":"Programação PHP",
+        "aulas": 112,
+        "horas":58
+    },
+    "12":{
+        "id": 12,
+        "titulo":"Word 2019 para Leigos",
+        "aulas": 87,
+        "horas": 67
+    },
+    "13":{
+        "id": 13,
+        "titulo":"Programação Delphi 7",
+        "aulas": 112,
+        "horas":58
+    },
+    "14":{
+        "id": 14,
+        "titulo":"Progamabdo o Android",
+        "aulas": 87,
+        "horas": 67
+    },
+    "15":{
+        "id": 15,
+        "titulo":"Arduino para leigos",
+        "aulas": 112,
+        "horas":58
+    },
+    "16":{
+        "id": 16,
+        "titulo":"Linguagem GO",
+        "aulas": 87,
+        "horas": 67
+    },
+    "17":{
+        "id": 17,
+        "titulo":"Programação GO para leigos",
+        "aulas": 112,
+        "horas":58
+    },
+    "18":{
+        "id": 18,
+        "titulo":"Algoritimo em GO",
+        "aulas": 87,
+        "horas": 67
+    },
+    "19":{
+        "id": 19,
+        "titulo":"Automação para leigos",
+        "aulas": 112,
+        "horas":58
+    }
+}
