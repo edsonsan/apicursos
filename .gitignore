@@ -170,3 +170,8 @@ cython_debug/
 .vscode
 # PyPI configuration file
 .pypirc
+
+# Meus arquivos
+ ambiente.bat
+ sonar-scanner.properties
+ .scannerwork
