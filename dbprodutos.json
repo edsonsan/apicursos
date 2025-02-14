@@ -1,0 +1,92 @@
+{
+  "1": {
+        "id": 101,
+        "nome": "Smartphone XYZ",
+        "detalhes": {
+        "marca": "Marca A",
+        "preco": 1200.00,
+        "estoque": 50,
+            "especificacoes": {
+                "tela": "6.5 polegadas",
+                "processador": "Snapdragon 888",
+                "memoria": "8GB RAM",
+                "armazenamento": "128GB"
+            }
+        }
+  },
+  "2": {
+        "id": 102,
+        "nome": "Notebook ABC",
+        "detalhes": {
+            "marca": "Marca B",
+            "preco": 3500.00,
+            "estoque": 30,
+            "especificacoes": {
+                "tela": "15.6 polegadas",
+                "processador": "Intel i7",
+                "memoria": "16GB RAM",
+                "armazenamento": "512GB SSD"
+            }
+        }
+  },
+  "3": {
+        "id": 101,
+        "nome": "Smartphone XYZ",
+        "detalhes": {
+            "marca": "Marca A",
+            "preco": 1200.00,
+            "estoque": 50,
+            "especificacoes": {
+                "tela": "6.5 polegadas",
+                "processador": "Snapdragon 888",
+                "memoria": "8GB RAM",
+                "armazenamento": "128GB"
+            }
+        }
+  },
+  "4": {
+        "id": 102,
+        "nome": "Notebook ABC",
+        "detalhes": {
+            "marca": "Marca B",
+            "preco": 3500.00,
+            "estoque": 30,
+            "especificacoes": {
+                "tela": "15.6 polegadas",
+                "processador": "Intel i7",
+                "memoria": "16GB RAM",
+                "armazenamento": "512GB SSD"
+            }
+        }
+  },
+  "5": {
+        "id": 101,
+         "nome": "Smartphone XYZ",
+         "detalhes": {
+             "marca": "Marca A",
+             "preco": 1200.00,
+            "estoque": 50,
+            "especificacoes": {
+                "tela": "6.5 polegadas",
+                "processador": "Snapdragon 888",
+                "memoria": "8GB RAM",
+                "armazenamento": "128GB"
+                }
+          }
+  },
+  "6": {
+        "id": 102,
+        "nome": "Notebook ABC",
+        "detalhes": {
+            "marca": "Marca B",
+            "preco": 3500.00,
+            "estoque": 30,
+            "especificacoes": {
+                "tela": "15.6 polegadas",
+                "processador": "Intel i7",
+                "memoria": "16GB RAM",
+                "armazenamento": "512GB SSD"
+                }
+        }
+  }
+}
