@@ -26,7 +26,6 @@ print(cursos)
         #  response_model=Curso,
          response_description="Cursos encontrados com sucesso!"
          ) 
-
 async def get_cursos():
     print(type(cursos))
     return cursos
@@ -48,6 +47,22 @@ async def get_curso(curso_id: int):
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"ID Curso id {curso_id} não encontrado..."
         )
+        
+@app.get('/cursos/titulo/{titulo}',
+        description="Retorna o Curso referente ao título informado",
+        summary="Retorna Curso pelo Título")
+async def get_curso_por_titulo(titulo: str):
+    # Procura um curso com o título fornecido
+    for curso_id, curso in cursos.items():
+        if curso["titulo"].lower() == titulo.lower():
+            return curso
+    
+    # Se não encontrar, levanta uma exceção
+    raise HTTPException(
+        status_code=status.HTTP_404_NOT_FOUND,
+        detail=f"Curso com título '{titulo}' não encontrado..."
+    )
+   
         
 @app.post('/cursos', 
         status_code=status.HTTP_201_CREATED, 

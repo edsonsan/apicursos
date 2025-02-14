@@ -15,7 +15,7 @@ def Cabecalho():
     print("QA Online BR - EdsonSan")
 
 def InicializaArquivo():
-    dbcursos_json = 'dbcursos.json'
+    dbcursos_json = 'dbcursoslista.json'
     diretorio_atual = os.listdir()
     if dbcursos_json in diretorio_atual:
             print("Arquivo existe")
