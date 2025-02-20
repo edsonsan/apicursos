@@ -1,4 +1,3 @@
-from ast import Not
 from itertools import count
 from tokenize import String
 from typing import Dict, List, Optional
@@ -11,13 +10,12 @@ import util
 from models import AlteraCurso, Curso
 
 global dbcursos_json
-global listanome    
 
 util.Cabecalho()
 cursos = util.InicializaArquivo()
 app = FastAPI(title="QA br Treinamento REST",  
               version= "1.0.0",         
-              description="QAonline BR", 
+              description="QAonline BR",
               openapi_url="/restcurso.json",)
 print("")
 print(cursos)
@@ -50,40 +48,22 @@ async def get_curso(curso_id: int):
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"ID Curso id {curso_id} não encontrado..."
         )
-
-# *** Substituido pelo end-point '/cursos/primeiro-nome/{primeiro_nome}'
-# @app.get('/cursos/titulo/{titulo}',
-#         description="Retorna o Curso referente ao título informado",
-#         summary="Retorna Curso pelo Título")
-# async def get_curso_por_titulo(titulo: str):
-#     # Procura um curso com o título fornecido
-#     for curso_id, curso in cursos.items():
-#         if curso["titulo"].lower() == titulo.lower():
-#             return curso   
-#     # Se não encontrar, levanta uma exceção
-#     raise HTTPException(
-#         status_code=status.HTTP_404_NOT_FOUND,
-#         detail=f"Curso com título '{titulo}' não encontrado..."
-#     )
-
+        
 @app.get('/cursos/titulo/{titulo}',
-         description="Retorna todos os cursos cujo título começa com o nome fornecido",
-         summary="Retorna cursos pelo primeiro nome do título")
+        description="Retorna o Curso referente ao título informado",
+        summary="Retorna Curso pelo Título")
 async def get_curso_por_titulo(titulo: str):
-    # Filtra os cursos cujo título começa com o nome fornecido
-    cursos_filtrados = {
-        curso_id: curso for curso_id, curso in cursos.items()
-        if curso["titulo"].lower().startswith(titulo.lower())
-    }
-
-    if not cursos_filtrados:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail=f"Nenhum curso encontrado com o primeiro nome '{titulo}'"
-        )
-
-    return cursos_filtrados
-  
+    # Procura um curso com o título fornecido
+    for curso_id, curso in cursos.items():
+        if curso["titulo"].lower() == titulo.lower():
+            return curso
+    
+    # Se não encontrar, levanta uma exceção
+    raise HTTPException(
+        status_code=status.HTTP_404_NOT_FOUND,
+        detail=f"Curso com título '{titulo}' não encontrado..."
+    )
+   
         
 @app.post('/cursos', 
         status_code=status.HTTP_201_CREATED, 
