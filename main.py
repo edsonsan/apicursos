@@ -7,8 +7,6 @@ from fastapi import HTTPException
 from fastapi import status
 import os
 import json
-
-from pymysql import NULL
 import util
 from models import AlteraCurso, Curso
 
