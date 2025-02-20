@@ -15,7 +15,8 @@ util.Cabecalho()
 cursos = util.InicializaArquivo()
 app = FastAPI(title="QA br Treinamento REST",  
               version= "1.0.0",         
-              description="QAonline BR")
+              description="QAonline BR", 
+              openapi_url="/restcurso.json",)
 print("")
 print(cursos)
 
