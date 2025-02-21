@@ -82,7 +82,6 @@ async def post_curso(curso : Curso):
         if  next_id not in cursos:
             cursos[next_id] = curso
             curso.id = next_id    
-        #  util.GravaArquivo(cursos)
             print(cursos)   
             return curso
          
