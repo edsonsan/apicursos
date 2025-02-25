@@ -175,3 +175,5 @@ cython_debug/
  ambiente.bat
  sonar-scanner.properties
  .scannerwork
+ .obsidian
+ .trash
