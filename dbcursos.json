@@ -111,5 +111,35 @@
         "titulo":"Automação para leigos",
         "aulas": 112,
         "horas":58
+    },
+    "20":{
+        "id": 20,
+        "titulo":"Programação Python para Leigos",
+        "aulas": 112,
+        "horas":58
+    },
+    "21":{
+        "id": 21,
+        "titulo":"Programação Python para Leigos",
+        "aulas": 112,
+        "horas":58
+    },
+    "22":{
+        "id": 22,
+        "titulo":"Programação Python para Leigos",
+        "aulas": 112,
+        "horas":58
+    },
+    "23":{
+        "id": 23,
+        "titulo":"Programação Python para Leigos",
+        "aulas": 112,
+        "horas":58
+    },
+    "24":{
+        "id": 24,
+        "titulo":"Programação Python para Leigos",
+        "aulas": 112,
+        "horas":58
     }
 }
