@@ -23,7 +23,7 @@ Projeto utilizado para criação de automação teste Rest, podendo ser executad
 ### Requisitos
 ----------------
 
--> OS Windows > 7
+-> OS Windows > 8
 -> Linux com Wine
 -> Firewall liberado na porta 8000
 
@@ -40,3 +40,5 @@ Um dos propósitos de se trabalhar dessa forma é não depender de infraestrutur
 ![](./img/gif%20apicursos.gif)
 
 -----------------
+### Collections Postman
+No arquivo ***thunder-collection_postman_Api Cursos.json*** temos a collection do Postman para ser importada e utilizada para testes manuais.
