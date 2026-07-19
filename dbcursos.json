@@ -1,145 +1,242 @@
-{  "1":  {
+{
+    "1": {
         "id": 1,
-        "titulo":"Programação para leigos",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação para leigos",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-   "2": {
+    "2": {
         "id": 2,
-        "titulo":"Algoritimo e Lógica",
-        "aulas": 87,
-        "horas": 67
+        "dados": {
+            "titulo": "Algoritimo e Lógica",
+            "meta": {
+                "aulas": 87,
+                "horas": 67
+            }
+        }
     },
-    "3":{
+    "3": {
         "id": 3,
-        "titulo":"Programação em Assembler x86 & x64",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação em Assembler x86 & x64",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "4":{
+    "4": {
         "id": 4,
-        "titulo":"Excel para Leigos",
-        "aulas": 87,
-        "horas": 67
+        "dados": {
+            "titulo": "Excel para Leigos",
+            "meta": {
+                "aulas": 87,
+                "horas": 67
+            }
+        }
     },
-    "5":{
+    "5": {
         "id": 5,
-        "titulo":"Windows 7",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Windows 7",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "6":{
+    "6": {
         "id": 6,
-        "titulo":"Windows 8.1",
-        "aulas": 87,
-        "horas": 67
+        "dados": {
+            "titulo": "Windows 8.1",
+            "meta": {
+                "aulas": 87,
+                "horas": 67
+            }
+        }
     },
-    "7":{
+    "7": {
         "id": 7,
-        "titulo":"Windows 10",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Windows 10",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "8":{
+    "8": {
         "id": 8,
-        "titulo":"Windows 11",
-        "aulas": 87,
-        "horas": 67
+        "dados": {
+            "titulo": "Windows 11",
+            "meta": {
+                "aulas": 87,
+                "horas": 67
+            }
+        }
     },
-    "9":{
+    "9": {
         "id": 9,
-        "titulo":"Programação Python para Leigos",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação Python para Leigos",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "10":{
+    "10": {
         "id": 10,
-        "titulo":"Algoritimo para IA",
-        "aulas": 87,
-        "horas": 67
+        "dados": {
+            "titulo": "Algoritimo para IA",
+            "meta": {
+                "aulas": 87,
+                "horas": 67
+            }
+        }
     },
-    "11":{
+    "11": {
         "id": 11,
-        "titulo":"Programação PHP",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação PHP",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "12":{
+    "12": {
         "id": 12,
-        "titulo":"Word 2019 para Leigos",
-        "aulas": 87,
-        "horas": 67
+        "dados": {
+            "titulo": "Word 2019 para Leigos",
+            "meta": {
+                "aulas": 87,
+                "horas": 67
+            }
+        }
     },
-    "13":{
+    "13": {
         "id": 13,
-        "titulo":"Programação Delphi 7",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação Delphi 7",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "14":{
+    "14": {
         "id": 14,
-        "titulo":"Progamabdo o Android",
-        "aulas": 87,
-        "horas": 67
+        "dados": {
+            "titulo": "Progamabdo o Android",
+            "meta": {
+                "aulas": 87,
+                "horas": 67
+            }
+        }
     },
-    "15":{
+    "15": {
         "id": 15,
-        "titulo":"Arduino para leigos",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Arduino para leigos",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "16":{
+    "16": {
         "id": 16,
-        "titulo":"Linguagem GO",
-        "aulas": 87,
-        "horas": 67
+        "dados": {
+            "titulo": "Linguagem GO",
+            "meta": {
+                "aulas": 87,
+                "horas": 67
+            }
+        }
     },
-    "17":{
+    "17": {
         "id": 17,
-        "titulo":"Programação GO para leigos",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação GO para leigos",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "18":{
+    "18": {
         "id": 18,
-        "titulo":"Algoritimo em GO",
-        "aulas": 87,
-        "horas": 67
+        "dados": {
+            "titulo": "Algoritimo em GO",
+            "meta": {
+                "aulas": 87,
+                "horas": 67
+            }
+        }
     },
-    "19":{
+    "19": {
         "id": 19,
-        "titulo":"Automação para leigos",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Automação para leigos",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "20":{
+    "20": {
         "id": 20,
-        "titulo":"Programação Python para Leigos",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação Python para Leigos",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "21":{
+    "21": {
         "id": 21,
-        "titulo":"Programação Python para Leigos",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação Python para Leigos",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "22":{
+    "22": {
         "id": 22,
-        "titulo":"Programação Python para Leigos",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação Python para Leigos",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "23":{
+    "23": {
         "id": 23,
-        "titulo":"Programação Python para Leigos",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação Python para Leigos",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     },
-    "24":{
+    "24": {
         "id": 24,
-        "titulo":"Programação Python para Leigos",
-        "aulas": 112,
-        "horas":58
+        "dados": {
+            "titulo": "Programação Python para Leigos",
+            "meta": {
+                "aulas": 112,
+                "horas": 58
+            }
+        }
     }
 }
