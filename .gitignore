@@ -173,9 +173,11 @@ cython_debug/
 .pypirc
 
 # Meus arquivos
- ambiente.bat
- sonar-scanner.properties
- .scannerwork
- .obsidian/
- .trash/
- *.zip
+docs/
+ambiente.bat
+sonar-scanner.properties
+.scannerwork
+.obsidian/
+.trash/
+*.zip
+thunder-collection_postman_Api Cursos.json
